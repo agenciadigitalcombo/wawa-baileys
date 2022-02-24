@@ -16,7 +16,7 @@
     "automation"
   ],
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./index.js",
     "test": "mocha --timeout 240000 -r ts-node/register src/Tests/Tests.*.ts",
     "prepack": "tsc",
     "lint": "eslint '*/*.ts' --quiet --fix",
