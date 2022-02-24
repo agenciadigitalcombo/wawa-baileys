@@ -16,6 +16,7 @@
     "automation"
   ],
   "scripts": {
+    "start": "node index.js",
     "test": "mocha --timeout 240000 -r ts-node/register src/Tests/Tests.*.ts",
     "prepack": "tsc",
     "lint": "eslint '*/*.ts' --quiet --fix",
@@ -25,6 +26,7 @@
     "example": "node --inspect -r ts-node/register Example/example.ts",
     "gen-protobuf": "bash src/Binary/GenerateStatics.sh",
     "browser-decode": "yarn ts-node src/BrowserMessageDecoding.ts"
+    
   },
   "author": "Adhiraj Singh",
   "license": "MIT",
