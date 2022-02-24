@@ -16,7 +16,7 @@
     "automation"
   ],
   "scripts": {
-    "start": "node ./App.js",
+    "start": "node ../app.js",
     "test": "mocha --timeout 240000 -r ts-node/register src/Tests/Tests.*.ts",
     "prepack": "tsc",
     "lint": "eslint '*/*.ts' --quiet --fix",
